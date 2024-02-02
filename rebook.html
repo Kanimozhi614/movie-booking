@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ticket Booking</title>
+</head>
+<body bgcolor="orange">
+    <img align="left"height="100" width="100"src="C:\Users\kanim\Downloads\movie.jpeg"
+    
+     <center><h1>Welcome to" BookMyShow"</h1>
+     </center><footer>
+        <p>&copy; 2023 Movie Ticket Booking</p>
+    </footer>
+    
+        <h2>Book your Tickets:</h2>
+        <table>
+        <tr>
+            <td><label for="name">Your Name:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Your Phone:</label></td>
+            <td><input type="tel" id="phone" name="phone" required></td>
+        </tr></table>
+        <label for="date">Select a Date:</label>
+            <input type="date" id="date" name="date" required>
+        <form action="confirmation.html" method="post">
+            <br><label for="movie">Select a Movie:</label>
+            <select id="movie" name="movie">
+                <option value="select">select</option>
+                <option value="jawan">jawan</option>
+                <option value="chandramukhi 2">chandramukhi 2</option>
+                <option value="leo">leo</option>
+                <option value="mark antony">mark antony</option>
+                <!-- Add more movie options here -->
+            </select>
+        <br><br>
+            <label for="theatres">Select a theatre:</label>
+            <select id="theatre" name="theatre">
+                <option value="select">select</option>
+                <option value="INOX NATIONAL">INOX NATIONAL</option>
+                <option value="AGS cinemas">AGS cinemas</option>
+                <option value="MAAYAJAL Multiplex">MAAYAJAL Multiplex</option>
+                <!-- Add more showtime options here -->
+            </select><br><br>
+            <label for="showtime">Select a Showtime:</label>
+            <select id="showtime" name="showtime">
+                <option value="select">select</option>
+                <option value="morning show:">morning show</option>
+                <option value="matinee show">matinee show</option>
+                <option value="evening show">evening show</option>
+                <!-- Add more showtime options here -->
+            </select>
+            <br><br><label for="numTickets">Number of Tickets:</label>
+                 <input type="number" id="numTickets" name="numTickets" min="1" required></br>
+               <br><br><button type="submit"><a href="https://in.bookmyshow.com/">MAKE PAYMENT</a></button>
+</body>
+</html>
+
+
